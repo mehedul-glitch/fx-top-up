@@ -1,1 +1,87 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FX TOP UP</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#0b0b0b;color:white;
+ font-family:Arial,sans-serif
+}
+header{
+ padding:22px;text-align:center;
+ color:#e8bd52;font-size:28px;
+ font-weight:bold;border-bottom:1px solid #806323
+}
+.hero{text-align:center;padding:55px 15px}
+h1{font-size:42px;margin:10px;color:#e8bd52}
+p{color:#bbb}
+button{
+ background:linear-gradient(120deg,#f5d77c,#b88622);
+ color:#111;border:0;padding:13px 25px;
+ border-radius:7px;font-weight:bold
+}
+section{padding:25px 15px;max-width:850px;margin:auto}
+h2{text-align:center;color:#e8bd52}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{
+ background:#191919;border:1px solid #655022;
+ padding:22px;border-radius:12px;text-align:center
+}
+.card h3{color:#e8bd52}
+input,select{
+ width:100%;padding:14px;margin:9px 0;
+ background:#202020;color:white;
+ border:1px solid #806323;border-radius:7px
+}
+form{background:#191919;padding:20px;border-radius:12px}
+form button{width:100%;margin-top:12px}
+footer{text-align:center;padding:25px;color:#999}
+</style>
+</head>
+<body>
+<header>💎 FX TOP UP</header>
+<div class="hero">
+ <p>WELCOME TO FX TOP UP</p>
+ <h1>LEVEL UP YOUR GAME</h1>
+ <p>DIAMONDS • MEMBERSHIP • GAMING</p>
+ <a href="#packages"><button>EXPLORE PACKAGES</button></a>
+</div>
+<section id="packages">
+<h2>💎 DIAMOND PACKAGES</h2>
+<div class="grid">
+<div class="card"><h3>100 Diamonds</h3><p>Demo Package</p></div>
+<div class="card"><h3>210 Diamonds</h3><p>Demo Package</p></div>
+<div class="card"><h3>520 Diamonds</h3><p>Demo Package</p></div>
+<div class="card"><h3>1060 Diamonds</h3><p>Demo Package</p></div>
+<div class="card"><h3>Weekly Membership</h3><p>Demo Package</p></div>
+<div class="card"><h3>Monthly Membership</h3><p>Demo Package</p></div>
+</div>
+</section>
+<section>
+<h2>PLACE DEMO ORDER</h2>
+<form onsubmit="event.preventDefault();alert('Demo only! No real order or payment was made.')">
+<label>Player UID</label>
+<input type="number" placeholder="Enter Player UID" required>
+<label>Select Package</label>
+<select>
+<option>100 Diamonds</option>
+<option>210 Diamonds</option>
+<option>520 Diamonds</option>
+<option>1060 Diamonds</option>
+<option>Weekly Membership</option>
+<option>Monthly Membership</option>
+</select>
+<button type="submit">ORDER NOW</button>
+</form>
+</section>
+<footer>
+FX TOP UP © 2026<br>
+Independent demo store. Not affiliated with Garena.
+</footer>
+</body>
+</html>
+
